@@ -9,8 +9,21 @@ def prediccion_precio():
     from datetime import datetime
 
     df = pd.read_csv("df_streamlit.csv",sep=",") # lo usamos para generar los campos 
-    with open("modelo.zip/modelo.pkl", 'rb') as f:
-        modelo_cargado = pickle.load(f)
+  #  with open("modelo.pkl", 'rb') as f:
+  #      modelo_cargado = pickle.load(f)
+    
+    
+    import zipfile
+    # Ruta del archivo comprimido
+    ruta_zip = "modelo.zip"
+
+    # Nombre del archivo dentro de la carpeta comprimida
+    nombre_archivo = "modelo.pkl"
+
+    # Extraer el archivo modelo.pkl de la carpeta comprimida
+    with zipfile.ZipFile(ruta_zip, 'r') as archivo_zip:
+        with archivo_zip.open(nombre_archivo) as archivo:
+            modelo_cargado = pickle.load(archivo)
 
     # interfaz de usuario
     st.title('Predicción de precios de vehículos')
