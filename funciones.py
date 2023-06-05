@@ -2,15 +2,26 @@
 
 
 def prediccion_precio():
+    import zipfile
     import streamlit as st
     import pandas as pd
     import pickle
+    import os
     from datetime import datetime
 
     df = pd.read_csv("df_streamlit.csv",sep=",") # lo usamos para generar los campos 
+    ruta_archivo_zip = "modelo.zip"
+    nombre_archivo = "modelo.pkl" 
+    directorio_actual = os.getcwd()   
     
-    with open("modelo.pkl", 'rb') as f: # cargamos modelo de prediccion
-        modelo_cargado = pickle.load(f)
+    with zipfile.ZipFile(ruta_archivo_zip, "r") as zip_ref:
+        zip_ref.extractall(directorio_actual)
+        
+
+ 
+    ruta_archivo_descomprimido = os.path.join(directorio_actual, nombre_archivo)
+    with open(ruta_archivo_descomprimido, 'rb') as f:
+     modelo_cargado = pickle.load(f)
  
 
     # interfaz de usuario
