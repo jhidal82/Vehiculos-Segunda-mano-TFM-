@@ -10,14 +10,14 @@ Terminaremos con la creación de una web utilizando la libreria streamlit, donde
 
 ## Estructura del repositorio
 
-TFM.ipynb:  Contiene los notebooks de Jupyter utilizados para la limpieza de datos, análisis exploratorio y entrenamiento del modelo de Machine Learning.
-App.py : Archivo para ejecutar la aplicación web usando streamlit
-funciones.py : Archivo que contiene las funciones de la web 
-coches.csv : Dataset original
-df_streamlit.csv : Dataset después de ETL.
-modelo.pkl2 : Modelo de predicción utilizado.
-precio_numerico_dict2.pkl : Diccionario para reconvertir datos trasformados.
-coches2.jpg : imagen para la web
-coches1.jpg : imagen para la web
-coches4.jpg : imagen para la web
-requirements.txt
+* TFM.ipynb:  Contiene los notebooks de Jupyter utilizados para la limpieza de datos, análisis exploratorio y entrenamiento del modelo de Machine Learning.
+* App.py : Archivo para ejecutar la aplicación web usando streamlit
+* funciones.py : Archivo que contiene las funciones de la web 
+* coches.csv : Dataset original
+* df_streamlit.csv : Dataset después de ETL.
+* modelo.pkl2 : Modelo de predicción utilizado.
+* precio_numerico_dict2.pkl : Diccionario para reconvertir datos trasformados.
+* coches2.jpg : imagen para la web
+* coches1.jpg : imagen para la web
+* coches4.jpg : imagen para la web
+* requirements.txt
