@@ -10,7 +10,8 @@ def prediccion_precio():
     from datetime import datetime
 
     df = pd.read_csv("df_streamlit.csv",sep=",") # lo usamos para generar los campos 
-    ruta_archivo_zip = "modelo.zip"
+    ruta_archivo_zip = "Vehiculos-Segunda-mano-TFM-/modelo.zip"
+modelo.zip"
     nombre_archivo = "modelo.pkl" 
     directorio_actual = os.getcwd()   
     
