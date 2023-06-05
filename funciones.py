@@ -216,7 +216,7 @@ def mapa_ubicacion(df):
     from streamlit_folium import st_folium
     st.write('Te ayudamos a localizar, dónde se encuentran nuestros vehiculos, navega por el mapa \
              y obtendrás la ubicación exacta:')
-    df = pd.read_csv("location_df.csv", sep=",")
+    df = pd.read_csv("df_streamlit.csv", sep=",")
 
     # Obtener las opciones únicas de marca y modelo
     unique_makes = df['make'].unique()
