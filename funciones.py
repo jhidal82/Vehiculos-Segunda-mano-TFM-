@@ -9,7 +9,7 @@ def prediccion_precio():
 
     df = pd.read_csv("df_streamlit.csv",sep=",") # lo usamos para generar los campos 
     
-    with open("modelo.pkl2", 'rb') as f: # cargamos modelo de prediccion
+    with open("modelo.pkl", 'rb') as f: # cargamos modelo de prediccion
         modelo_cargado = pickle.load(f)
  
 
