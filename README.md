@@ -24,8 +24,8 @@ Terminaremos con la creación de una web utilizando la libreria streamlit, donde
 
 
 Docentes:
-*José Manuel Peña Castro
-*Isabel Maniega Cuadrado
+* *José Manuel Peña Castro*
+* *Isabel Maniega Cuadrado*
 
 Autor:
-*Javier Hidalgo Caballero*
+* *Javier Hidalgo Caballero*
