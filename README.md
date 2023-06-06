@@ -1,5 +1,5 @@
 ## Vehiculos-Segunda-mano-TFM-
-## TFM Data Scientist Itti Higth Tech Institute
+## TFM Data Scientist (Itti Higth Tech Institute)
 
 Este repositorio contiene el código y los recursos necesarios para crear y ejecutar una aplicación Web usando python. 
 
@@ -21,3 +21,11 @@ Terminaremos con la creación de una web utilizando la libreria streamlit, donde
 * coches1.jpg : imagen para la web
 * coches4.jpg : imagen para la web
 * requirements.txt
+
+
+Docentes:
+*José Manuel Peña Castro
+*Isabel Maniega Cuadrado
+
+Autor:
+*Javier Hidalgo Caballero*
